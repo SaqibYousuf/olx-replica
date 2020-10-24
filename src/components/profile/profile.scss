@@ -1,0 +1,213 @@
+.Profile {
+  .innerProfile {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    .profileDetail {
+      width: 22%;
+      display: flex;
+      align-content: center;
+      flex-direction: column;
+      justify-content: center;
+      .profilePic {
+        display: flex;
+        align-content: center;
+        // flex-direction: column;
+        justify-content: center;
+        .image {
+          width: 184px;
+          height: 184px;
+          .MuiAvatar-root {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      .linkedAcc,
+      .Friends {
+        border: 1px solid #0000001f;
+        margin-top: 20px;
+        // margin-bottom: 20px;
+      }
+      .memberSince {
+        margin-top: 20px;
+        text-align: center;
+        p {
+          margin: 0px;
+          padding: 10px 0px;
+        }
+        h4 {
+          margin: 0px;
+          color: blue;
+          //   padding: 10px;
+        }
+      }
+      .head {
+        background: #ebeeef;
+        padding: 4px 8px;
+      }
+      .list {
+        display: flex;
+        justify-content: space-between;
+        padding: 4px 8px;
+        p {
+          margin: 0px;
+          padding-top: 5px;
+        }
+        i,
+        span {
+          float: right;
+        }
+      }
+    }
+    .ads {
+      width: 75%;
+    }
+    .profileName {
+      display: flex;
+      // align-items: center;
+      // justify-content: center;
+      height: 100px;
+      border-bottom: 1px solid #0000001f;
+      width: 100%;
+
+      padding: 19px 0px;
+
+      h2 {
+        font-weight: 500;
+        font-size: 40px;
+      }
+      button {
+        color: #002f34;
+        /* padding: 20px; */
+        height: 41px;
+        padding: 0px 14px;
+        background: transparent;
+        border: 2px solid #002f34;
+        margin: 0px 20px;
+        border-radius: 7px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+.EditProfile {
+  .innerEdit {
+    display: flex;
+    .viewPro {
+      width: 22%;
+      padding: 50px 10px 0px 25px;
+      button {
+        width: 100%;
+        height: 40px;
+        background: transparent;
+        border: 2px solid #002f34;
+        border-radius: 5px;
+      }
+      h3 {
+        padding: 10px 0px;
+      }
+    }
+    .right {
+      width: 75%;
+      padding: 50px 10px 0px 25px;
+      .editForm {
+        border: 1px solid #0000001f;
+        .editHead {
+          padding: 10px 20px;
+          border-bottom: 1px solid #0000001f;
+        }
+      }
+      .form {
+        padding: 30px 20px;
+        .basic {
+          display: flex;
+          justify-content: space-between;
+          .inputDiv {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            .input {
+              margin-bottom: 30px;
+              height: 50px;
+              font-size: 18px;
+            }
+            textarea {
+              height: 80px;
+              font-size: 18px;
+            }
+          }
+          .impBox {
+            width: 50%;
+            padding: 0px 20px;
+            .imp {
+              width: 60%;
+              border: 1px solid #29505473;
+              padding: 11px;
+              height: 125px;
+              color: #002f34;
+              .impHead {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                h4 {
+                  margin: 0px;
+                  padding: 0px 5px;
+                }
+              }
+              p {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+        hr {
+          margin: 60px 0px;
+        }
+        .Contact {
+          .ContactInput {
+            width: 35%;
+            margin-bottom: 40px;
+            .input {
+              width: 100%;
+              // display: flex;
+              height: 50px;
+              .label {
+                display: flex;
+                align-items: center;
+              }
+              // align-items: center;
+            }
+          }
+        }
+        .btnDiv{
+          display: flex;
+          justify-content: space-between;
+          .discardBtn{
+            background: transparent;
+            border: none;
+            border-bottom: 3px solid black;
+            font-size: 20px;
+            padding: 10px;
+            font-weight: 700;
+            &:hover{
+            border-bottom: none;
+
+            }
+          }
+          .savebtn {
+            border-radius: 4px;
+            border: 5px solid #002f34;
+            background-color: #002f34;
+            color: white;
+            padding: 0 7px;
+            &:hover {
+              background-color: white;
+              color: #002f34;
+            }
+          }
+        }
+      }
+    }
+  }
+}

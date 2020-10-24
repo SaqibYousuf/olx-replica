@@ -1,0 +1,233 @@
+.Sell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 40px 0px;
+    h2 {
+        text-align: center;
+        font-weight: bolder;
+        padding: 20px;
+    }
+    .postCat {
+        width: 60%;
+        height: 700px;
+        border: 1px solid #00000030;
+        .cac {
+            height: 8%;
+            border-bottom: 1px solid #00000030;
+            padding: 20px;
+        }
+    }
+    .categoreis {
+        display: flex;
+        height: 92%;
+        .mainCat {
+            width: 50%;
+            border-right: 1px solid #00000030;
+        }
+        .subCat {
+            width: 50%;
+        }
+        .catmenu {
+            height: 7.1%;
+            width: 100%;
+            border-top: 1px solid #00000030;
+            border-bottom: 1px solid #00000030;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            color: #00000080;
+            font-weight: bold;
+            &:hover {
+                color: #002f34;
+                background-color: rgba(0, 47, 52, 0.2);
+            }
+            p {
+                margin: 0px;
+            }
+        }
+    }
+}
+.PostForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .form {
+        width: 70%;
+        border: 1px solid #00000030;
+        margin: 30px;
+        .formHead {
+            padding: 15px;
+            border-bottom: 1px solid #00000030;
+        }
+        .catogorie {
+            display: flex;
+            justify-content: space-between;
+            a {
+                color: black;
+            }
+        }
+        .formBody {
+            padding: 15px;
+            .condition {
+                display: flex;
+            }
+            .type {
+                margin-top: 40px;
+
+                .typeField {
+                    display: flex;
+                }
+            }
+            .buttonField {
+                // width: 70px;
+                border: 1px solid black;
+                padding: 6px 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+                border-radius: 5px;
+            }
+            p {
+                margin: 0px;
+                font-size: 12px;
+                color: #000000a6;
+            }
+            .title {
+                margin-top: 40px;
+            }
+            .des {
+                margin-top: 40px;
+            }
+            hr {
+                margin: 40px 0px;
+            }
+            .input {
+                width: 100%;
+            }
+            .descript {
+                width: 100%;
+                height: 85px;
+            }
+            .price {
+                .label {
+                    background-color: transparent;
+                    border: none !important;
+                    border-right: 1px solid #00000030 !important;
+                }
+                .priceInput {
+                    border: 1px solid #002f34;
+                    padding: 5px;
+                    border-radius: 6px;
+                    input {
+                        border: none;
+                    }
+                }
+            }
+            .personalDetail {
+                width: 88%;
+                .avatar {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    .Image {
+                        width: 80px;
+                        height: 80px;
+                    
+                    }
+                    .name{
+                        width: 100%;
+                    }
+                    .input {
+                        padding: 10px;
+                        width: 100%;
+                    }
+                    h5{
+                        margin: 0px;
+                        
+                    }
+                }
+            }
+            .ImagesUp {
+                .imgColm {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 60%;
+
+                    .label {
+                        // border: 1px solid black;
+                        margin: 4px;
+                        div {
+                            width: 100px;
+                            height: 100px;
+                            border: 2px solid #9dadb6;;
+                            justify-content: center;
+                            display: flex;
+                            align-items: center;
+                            flex-direction: column;
+                            color: #9dadb6;
+                            background-position: center;
+                            background-size: cover;
+                            svg {
+                                font-size: 26px;
+                            }
+                            p {
+                                font-size: 14px;
+                            }
+                            input {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .location{
+                .locTab{
+                    .innerTab{
+                        flex-direction: column;
+                        .appBar{
+                            background-color: transparent !important;
+                            box-shadow: none;
+                        }
+                    }
+                    .PrivateTabIndicator-colorSecondary-7 {
+                        background-color: #002f34;
+                    }
+                    .PrivateTabIndicator-root-5 {
+                        height: 5px;
+                    }
+                    .MuiTab-wrapper{
+                        color: black;
+                        font-weight: bold;
+                    }
+                }
+                .locSelect{
+                    margin: 10px;
+                    margin-left: 0px;
+                    width: 50%;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 15px;
+                    padding: 10px;
+                }
+            }
+                    .phoneNumber{
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: 40px;
+                        h5{
+                            width: 50%;
+                        }
+                        .input{
+                            width: 50%
+                        }
+    
+                    }
+        }
+    }
+}

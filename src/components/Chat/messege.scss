@@ -1,0 +1,161 @@
+.Message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px;
+  .chatBody {
+    width: 85%;
+    height: 490px;
+    border: 1px solid #00000045;
+    border-radius: 5px;
+    @media screen and (max-width:768px) {
+    width: 100%;
+      
+    }
+    .inBox {
+      display: flex;
+      height: 100%;
+    }
+    .member {
+      width: 40%;
+      h2 {
+        display: flex;
+        align-items: center;
+        height: 64px;
+        position: relative;
+        border-bottom: 1px solid rgba(0, 47, 52, 0.2);
+        padding: 12px;
+        box-sizing: border-box;
+        font-weight: 700;
+        font-size: 20px;
+        color: #002f34;
+        background-color: #ebeeef;
+        margin: 0px;
+      }
+      h4 {
+        height: 100px;
+        text-align: center;
+        clear: both;
+        line-height: 100px;
+        background-color: rgba(0, 47, 52, 0.2);
+
+        margin: 0px;
+      }
+      .recents {
+        height: 66%;
+        overflow-y: auto;
+        .recentChat {
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid rgba(0, 47, 52, 0.2);
+          cursor: pointer;
+          h5 {
+            margin: 0px;
+          }
+          &:hover {
+            background-color: #00000012;
+          }
+        }
+      }
+    }
+    .Messenges {
+      width: 60%;
+      .chatName {
+        display: flex;
+        align-items: center;
+        h3 {
+          padding: 15px;
+        }
+      }
+      .productName {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 64px;
+        position: relative;
+        border-bottom: 1px solid rgba(0, 47, 52, 0.2);
+        padding: 12px;
+        box-sizing: border-box;
+        font-weight: 700;
+        font-size: 20px;
+        color: #002f34;
+        // background-color: #ebeeef;
+        margin: 0px;
+        .icon {
+          margin: 0px 10px;
+        }
+      }
+      .proDes {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        p {
+          width: 50%;
+        }
+      }
+      .body {
+        height: 66.5%;
+        background-color: #ebeeef;
+        overflow-y: auto;
+        .msg {
+          padding: 10px;
+          width: 100%;
+          min-height: 100px;
+          .msgSend {
+            background-color: white;
+            width: 60%;
+            padding: 10px;
+            float: right;
+          }
+          .msgrec {
+            background-color: white;
+            width: 60%;
+            padding: 10px;
+          }
+        }
+      }
+      .uploadFile {
+        width: 8%;
+        height: 100%;
+        .icon {
+          font-size: 24px;
+        }
+        .fileInput {
+          display: none;
+        }
+      }
+      .msgInput {
+        width: 80%;
+        height: 44px;
+        input {
+          width: 100%;
+          height: 100%;
+          border: none;
+        }
+      }
+      .msgButton {
+        width: 12%;
+        button {
+          height: 44px;
+          width: 100%;
+          background-color: none;
+          border: none;
+        }
+      }
+      form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(0, 47, 52, 0.2);
+      }
+    }
+  }
+  .empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgba(0, 47, 52, 0.2);
+
+
+  }
+}

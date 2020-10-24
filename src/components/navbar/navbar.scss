@@ -1,0 +1,346 @@
+.Navbar {
+  background-color: #f7f8f9;
+  height: 68px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+  .logo {
+    height: 100%;
+    padding: 10px;
+    img {
+      height: 100%;
+    }
+  }
+  .location {
+    width: 29%;
+    .input {
+      width: 90%;
+      height: 48px;
+      border: 2px solid black;
+      input {
+        border-radius: 0px !important;
+      }
+    }
+    .searchIcon {
+      font-size: 16px;
+    }
+  }
+  .search {
+    width: 44%;
+    .input {
+      width: 100%;
+      height: 48px;
+      input {
+        border-radius: 0px !important;
+        border: 2px solid black;
+      }
+      button {
+        background-color: black;
+        color: white !important;
+        width: 11%;
+        display: flex;
+        font-size: 24px;
+      }
+    }
+  }
+  .navLinks {
+    display: flex;
+    align-items: center;
+    .logLink {
+      font-weight: bold;
+      color: #002f34;
+      font-size: 18px;
+      padding: 10px;
+      margin-right: 7px;
+      text-decoration: underline;
+    }
+    .Sell {
+      width: 98px;
+      height: 44px;
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: 24px;
+      border: 7px solid;
+      border-right-color: #3a77ff;
+      border-bottom-color: #3a77ff;
+      border-left-color: #ffce32;
+      border-top-color: #23e5db;
+      background: white;
+      flex-direction: row !important;
+      padding: 0px;
+    }
+    .linkIcon {
+      color: black;
+      font-size: 20px;
+      padding-left: 19px;
+      div {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+.catNav {
+  .menu {
+    border: none !important;
+    padding: 0px 20px !important;
+
+    .catogories {
+      border: none;
+    }
+    .catogories {
+      display: flex;
+    }
+  }
+  .ui.menu .item:before {
+    background: none !important;
+  }
+  .innerCat {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    .item{
+      display: block;
+      width: 25%;
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+}
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  p {
+    font-size: 13px;
+  }
+}
+.ui.active.modal {
+  display: block;
+  width: 400px;
+  height: 540px;
+}
+.slideImg {
+  width: 140px;
+}
+.loginModalButton {
+  display: flex;
+  flex-direction: column;
+  button {
+    height: 42px;
+    margin-bottom: 10px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 3px;
+    &:hover {
+      border: 4px solid black;
+    }
+  }
+  p {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+.nextModal {
+  .header {
+    border: none !important;
+    padding: 10px !important;
+  }
+  .content {
+    padding: 0px !important;
+    .phoneNumber {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      h3 {
+        color: #002f34;
+        font-weight: 900;
+        padding: 0px 0px 10px 0px;
+      }
+      .phoneInput {
+        width: 90%;
+        height: 50px;
+        border: 1px solid #002f34;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        .label {
+          background-color: transparent !important;
+          border-right: 1px solid #0000001c;
+        }
+      }
+    }
+  }
+  .modalSec {
+    display: flex;
+    /* justify-content: space-around; */
+    height: 107px;
+    .modalBack {
+      width: 5%;
+    }
+    .modalLogo {
+      width: 90%;
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 81px;
+      }
+    }
+    .ModalClose {
+      width: 5%;
+    }
+  }
+  .nxtBtn {
+    padding: 14px;
+    text-align: center;
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 230px;
+      p {
+        font-size: 11px;
+        padding: 20px 40px;
+      }
+      button {
+        width: 90%;
+        height: 45px;
+        border: none;
+        background-color: #d8dfe0;
+        color: #7f9799;
+      }
+    }
+  }
+  .Code {
+    p {
+      font-size: 14px;
+    }
+    .inputCodeDiv {
+      display: flex;
+      justify-content: space-evenly;
+      width: 85%;
+      .codeInput {
+        width: 58px;
+        align-items: center;
+        justify-content: center;
+        font-size: 19px;
+        display: flex;
+        height: 58px;
+        input {
+          font-size: 23px;
+        }
+      }
+    }
+  }
+  .resend {
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      p {
+        padding: 3px;
+        color: blue;
+        font-weight: bold;
+      }
+    }
+  }
+}
+.menu .transition {
+  z-index: 9999;
+}
+.userDrop {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 10px;
+  background-color: white;
+  width: 270px;
+  box-shadow: 0px 0px 18px -10px black;
+  border-radius: 5px;
+  p {
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    font-size: 16px;
+  }
+  .userAv {
+    display: flex;
+    align-items: center;
+    .MuiAvatar-root {
+      width: 60px !important;
+      height: 60px !important;
+    }
+    h4 {
+      margin: 0px;
+      font-size: 20px;
+    }
+    .edit {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      a {
+        font-size: 10px;
+      }
+    }
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    border-top: 1px solid rgba(0, 47, 52, 0.2);
+
+    div {
+      height: 40px;
+      font-weight: bold;
+      color: #0000008f;
+      font-size: 18px;
+      .icon {
+        padding: 0px 0px;
+        color: black;
+      }
+    }
+  }
+}
+.searchItems {
+  position: absolute;
+  background-color: white;
+  width: 43.6%;
+  .item {
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    p,
+    h5 {
+      margin: 0px;
+    }
+    .itemImage {
+      width: 60px;
+      height: 60px;
+      background-position: center;
+      background-size: cover;
+    }
+    .itemName {
+      padding: 10px 40px;
+      .loc {
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.452);
+      }
+    }
+  }
+}
